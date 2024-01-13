@@ -1,7 +1,8 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const assert = chai.assert;
-const server = require('../server.js');
+// const server = require('../server.js'); // Local
+const server = 'https://77729188-3a1b-4393-9ca6-31085df326ac-00-4zhn66nkzr7o.janeway.replit.dev';
 
 chai.use(chaiHttp);
 
